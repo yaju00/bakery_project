@@ -124,8 +124,14 @@ testimonyHandler=(index)=>{
 contactSlider=()=>{
   this.setState({contactState:true})
 }
+contactCloser=()=>{
+  this.setState({contactState:false})
+}
 aboutSlider=()=>{
   this.setState({aboutState:true})
+}
+aboutCloser=()=>{
+  this.setState({aboutState:false})
 }
  render(){
   return (
@@ -133,7 +139,9 @@ aboutSlider=()=>{
       <Navbar contactSlider={this.contactSlider} 
       aboutSlider={this.aboutSlider}
       contactState={this.state.contactState}
-      aboutState={this.state.aboutState}/>
+      aboutState={this.state.aboutState}
+      aboutCloser={this.aboutCloser}
+      contactCloser={this.contactCloser}/>
       <h1 id={styles["main1"]}> Welcome to <b id={styles["main2"]}>Grandma's Bakery</b>
       </h1>
       <Gallery 

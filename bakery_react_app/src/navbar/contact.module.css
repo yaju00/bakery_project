@@ -25,11 +25,45 @@
       line-height: 30px;
   }
 
-  @media screen and (max-width: 576px){
-    .card p{
-       font-size: 15px;
-       line-height: 20px;
 
-       
-   }  
- }
+ .cross{
+    top:17%;
+    font-size: 30px;
+    background-color: rgb(255, 83, 83);
+    margin-left:80vw;
+    position: relative;
+  }
+  .cross:hover{
+    opacity:0.7
+  }
+
+  @media screen and (max-width: 576px){
+    p{
+      font-size: 15px;
+      line-height: 20px;  
+  }  
+}
+@media screen and (max-width: 350px){
+    p{
+      font-size: 12px;
+      line-height: 20px; 
+  } 
+  h1{
+   font-size: 20px;
+  } 
+  .card{
+   top:25%;
+   left:5%;
+   width:90%;
+   border: rgb(107, 214, 218) solid 3px;
+
+}
+.cross{
+    top:20%;
+    left:6%;
+    font-size:20px;
+    background-color: rgb(255, 83, 83);
+    margin-left:80vw;
+    position: relative;
+  }
+}

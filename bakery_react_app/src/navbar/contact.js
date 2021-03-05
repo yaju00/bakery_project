@@ -4,6 +4,7 @@ import styles from './contact.module.css';
 const Contact=(props)=>{
     return(
         <div style={{visibility:props.showContact?'visible':'hidden'}}  className={styles.contact}>
+          <span onClick={props.contactCloser} className={styles.cross}>&times;</span>
           <div className={styles.card}>
               <h1>Contact</h1>
               <p>Ph: 1234567890</p>

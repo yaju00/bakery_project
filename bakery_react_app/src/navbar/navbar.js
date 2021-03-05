@@ -18,8 +18,8 @@ const Navigation=(props)=>{
                 <li className={styles.anchor}><a onClick={props.contactSlider}>Contact</a></li>
             </ul>
           </div> 
-          <About showAbout={props.aboutState} aboutSlider={props.aboutSlider} /> 
-          <Contact showContact={props.contactState} contactSlider={props.contactSlider}/> 
+          <About aboutCloser={props.aboutCloser} showAbout={props.aboutState} aboutSlider={props.aboutSlider} /> 
+          <Contact contactCloser={props.contactCloser} showContact={props.contactState} contactSlider={props.contactSlider}/> 
         </div>
 
     )
