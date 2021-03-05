@@ -1,0 +1,21 @@
+.para1{
+margin-top: 2vw;
+font-family: cursive;
+font-size: 1.8vw;
+color: rgb(109, 94, 67);
+}
+.para2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px){
+    .para1{
+        font-size: 2.6vw;
+        }
+    .para2{
+        font-size: 3vw;
+        
+    }
+}

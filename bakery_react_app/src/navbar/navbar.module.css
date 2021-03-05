@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 194, 124); 
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 400;
+}
+.img{
+    width: 4%;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none; 
+    margin:0 30px 0 30px;     
+}
+ li a{
+    
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+li a:hover{
+    color: rgb(243, 37, 37);
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+    
+     li {
+        width:100%;
+        text-align: center;
+    } 
+    .img { display:none;
+    } 
+    
+}
+

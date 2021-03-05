@@ -1,0 +1,34 @@
+.about{
+    background-color: rgb(128, 126, 126);
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index:2000;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,0.5);
+      
+  }
+
+  .card{
+      top:20%;
+      left:20%;
+      width: 60%;
+      height: 60%;
+      background-color: white;
+      position: fixed;
+      text-align: center;
+      border: rgb(107, 214, 218) solid 10px;
+  }
+  .card p{
+      font-size: 20px;
+  }
+  @media screen and (max-width: 576px){
+    .card p{
+       font-size: 15px;
+       line-height: 20px;
+
+       
+   }  
+ }
+
