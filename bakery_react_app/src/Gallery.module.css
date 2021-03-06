@@ -95,5 +95,32 @@
        font-size: 20px;
        font-style:italic; 
    }
+   #bot1{
+      font-size: 30px;
+    }
+    #bot2{
+      font-size: 45px;
+    }
+ }
+ @media screen and (max-width: 400px){
+    #bot1{
+      font-size: 25px;
+    }
+    #bot2{
+      font-size: 40px;
+    }
  }
 
+ @media screen and (max-width: 250px){
+   #bot1{
+     font-size: 20px;
+   }
+   #bot2{
+     font-size: 20px;
+   }
+   #list2 a{
+    
+      font-size:12px;
+    
+   }
+}

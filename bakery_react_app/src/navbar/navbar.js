@@ -11,12 +11,12 @@ const Navigation=(props)=>{
         <div>
           <div className={styles.nav}>
             <img className={styles.img} src={img}/>
-            <ul>
-            <li className={styles.anchor}><a  href='#home'>Home</a></li>
-                <li className={styles.anchor}><a onClick={props.aboutSlider}>About</a></li>
-                <li className={styles.anchor}><a href='#testimony'>Testimonies</a></li>
-                <li className={styles.anchor}><a onClick={props.contactSlider}>Contact</a></li>
-            </ul>
+            
+                <a href='#home'>Home</a>
+                <a onClick={props.aboutSlider}>About</a>
+                <a href='#testimony'>Testimonies</a>
+                <a onClick={props.contactSlider}>Contact</a>
+            
           </div> 
           <About aboutCloser={props.aboutCloser} showAbout={props.aboutState} aboutSlider={props.aboutSlider} /> 
           <Contact contactCloser={props.contactCloser} showContact={props.contactState} contactSlider={props.contactSlider}/> 

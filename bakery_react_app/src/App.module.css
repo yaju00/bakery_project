@@ -16,9 +16,9 @@
     font-weight: bold;
     color:rgb(2, 136, 136); 
    text-align: center;
-   margin-top: 50px;
-   margin-bottom: 100px;
-   padding: 125px;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   padding: 8%;
         
    }
 #main2{
@@ -28,3 +28,25 @@
     color:rgba(248, 23, 23, 0.801);
    }    
 
+@media screen and (max-width:400px){
+    #main1{
+        font-size:30px;  
+        margin-top: 40%;
+        margin-bottom: 10%;
+        padding: 8%;
+            
+       }
+       #main2{
+        font-size:40px;  
+       } 
+}
+@media screen and (max-width: 250px){
+    #main1{
+        margin-top: 60%;
+        font-size:20px;  
+            
+       }
+       #main2{
+        font-size:25px;  
+       } 
+}

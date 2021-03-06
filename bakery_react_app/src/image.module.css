@@ -39,10 +39,12 @@
   }
    @media screen and (max-width: 576px){
     .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      text-align: center;
-      font-family: arial;
-      margin:10px;
       max-width: 40%;
+    } 
+   }
+
+   @media screen and (max-width: 350px){
+    .card {
+      max-width: 60%;
     } 
    }
