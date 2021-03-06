@@ -11,7 +11,6 @@ const Navigation=(props)=>{
         <div>
           <div className={styles.nav}>
             <img className={styles.img} src={img}/>
-            
                 <a href='#home'>Home</a>
                 <a onClick={props.aboutSlider}>About</a>
                 <a href='#testimony'>Testimonies</a>

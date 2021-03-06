@@ -6,7 +6,7 @@ import Img from '../bakery/img1.jpeg'
 const Testimonials=(props)=>{
     return(
             <div id='testimony' className={styles.middle}>
-                <h1 className={styles.heading}>Testimonials</h1>
+                <div className={styles.heading}>Testimonials</div>
                 <div id={styles["middle1"]}>
                     <Testimonial testimonials={props.testimonials}
                     index={props.index}/>

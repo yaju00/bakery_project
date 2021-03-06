@@ -4,8 +4,7 @@
     width: 100%;
     position: fixed;
     top:0;
-    z-index: 400;
-   
+    z-index: 400;   
 }
 .img{
     width: 4%;
@@ -31,7 +30,6 @@
 @media screen and (max-width:400px){
      .nav {   
         flex-direction: column;
-        justify-content: space-between;
       }
       .nav a{
         padding: 5px 5px;
